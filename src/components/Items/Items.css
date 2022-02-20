@@ -1,0 +1,20 @@
+.Items {
+  padding: 4rem;
+  color: #242424;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .Items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .Items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

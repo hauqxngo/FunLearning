@@ -133,7 +133,7 @@ const ProfileForm = () => {
           <Message type="success" messages={["Updated successfully."]} />
         ) : null}
 
-        {currentUser.username !== "demo_user" ? (
+        {currentUser.username !== "testuser" ? (
           <Button color="success my-4" outline block>
             Save Changes
           </Button>

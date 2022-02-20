@@ -5,13 +5,3 @@
   top: 50%;
   transform: translatey(-50%);
 }
-
-.container {
-  height: 600px;
-}
-
-.Home-description {
-  color: #519259;
-  width: 50%;
-  margin: auto;
-}

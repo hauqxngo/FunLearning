@@ -1,5 +1,6 @@
 import React from "react";
 import ItemDetail from "./ItemDetail";
+import "./Items.css";
 
 /** Show list of item cards.
  *
@@ -12,7 +13,7 @@ import ItemDetail from "./ItemDetail";
 
 const Items = ({ items, view }) => {
   return (
-    <div>
+    <div className="Items">
       {items.map((i) => (
         <ItemDetail
           key={i.id}

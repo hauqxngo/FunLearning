@@ -16,7 +16,7 @@ import ProtectingRoute from "./ProtectingRoute";
 
 const Routes = ({ login, signup }) => {
   return (
-    <div className="pt-4">
+    <div>
       <Switch>
         <Route exact path="/">
           <Home login={login} />
