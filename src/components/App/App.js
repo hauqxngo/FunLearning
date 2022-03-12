@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Routes from "../Routes/Routes";
-import NavBar from "../Navigation/NavBar";
+import Navbar from "../Navigation/Navbar";
 import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FunLearningApi from "../../api/api";
@@ -8,6 +8,7 @@ import jwt from "jsonwebtoken";
 import UserContext from "../../UserContext";
 import Loading from "../Navigation/Loading";
 import useLocalStorage from "../../hooks/useLocalStorage";
+import "./App.css";
 
 // Key name for storing token in localStorage to stay logged in
 export const TOKEN_STORAGE_ID = "funlearning-token";
@@ -111,7 +112,7 @@ function App() {
         <UserContext.Provider
           value={{ currentUser, setCurrentUser, hasViewed, view }}
         >
-          <NavBar logout={logout} />
+          <Navbar logout={logout} />
           <Routes login={login} signup={signup} />
         </UserContext.Provider>
       </BrowserRouter>

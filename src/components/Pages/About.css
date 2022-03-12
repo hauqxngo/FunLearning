@@ -1,0 +1,33 @@
+#about {
+  padding: 70px 0;
+}
+
+#about h2 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+#about h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #019267 0%, #00c897 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+#about img {
+  width: 520px;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+
+#about p {
+  line-height: 24px;
+  margin: 30px 0;
+}

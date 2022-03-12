@@ -177,6 +177,7 @@ const SignupForm = ({ signup }) => {
             Sign Up
           </Button>
         </div>
+        <span>Already have an account? Login.</span>
       </Form>
     </div>
   );

@@ -1,0 +1,67 @@
+body,
+html {
+  font-family: "Fredoka", sans-serif;
+  font-size: 18px;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #777;
+  font-weight: 400;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 0 0 0 15rem;
+  padding-top: 2rem;
+  font-weight: 800;
+  font-size: 36px;
+  color: #333;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+/* h4 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
+p.intro {
+  margin: 12px 0 0;
+  line-height: 24px;
+}
+
+a {
+  color: #608dfd;
+  font-weight: 400;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #608dfd;
+}
+
+ul,
+ol {
+  list-style: none;
+} */

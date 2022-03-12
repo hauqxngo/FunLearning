@@ -1,0 +1,18 @@
+.navbar-brand {
+  font-family: "Balsamiq Sans", cursive;
+  font-weight: bold;
+  margin-left: 120px;
+  font-size: 1.5rem !important;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.collapse {
+  margin-right: 120px;
+}

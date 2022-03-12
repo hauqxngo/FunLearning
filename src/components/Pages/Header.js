@@ -27,12 +27,16 @@ const Header = ({ login }) => {
                     Help your little ones learn the basic things and get ready
                     for preschool.
                   </p>
-                  <a href="#features" role="button" className="btn btn-success">
-                    GET STARTED
+                  <a
+                    href="/signup"
+                    role="button"
+                    className="btn btn-success btn-lg"
+                  >
+                    <i className="fas fa-chalkboard-user"></i> GET STARTED
                   </a>
                   <form onSubmit={handleSubmit}>
-                    <button className="btn btn-outline-success mt-2">
-                      DEMO USER
+                    <button className="btn btn-outline-light btn-lg mt-3">
+                      <i className="fas fa-child"></i> TRY IT OUT
                     </button>
                   </form>
                 </div>
