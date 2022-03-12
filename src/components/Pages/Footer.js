@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = ({ login }) => {
@@ -18,24 +18,12 @@ const Footer = ({ login }) => {
     <div id="footer">
       <section className="colored-section" id="cta">
         <div className="container-fluid">
-          <h3 className="big-heading">Always Free. Learn More Today .</h3>
-          <Link to="/signup">
-            <button className="cta-button btn btn-lg btn-dark" type="button">
-              <i className="fas fa-chalkboard-user"></i> Get Started
+          <h3 className="big-heading">Always Free. Learn More Today.</h3>
+          <form onSubmit={handleSubmit}>
+            <button className="cta-button btn btn-outline-light">
+              <i className="fas fa-chalkboard-user"></i> TRY IT OUT
             </button>
-          </Link>
-
-          {/* <form onSubmit={handleSubmit}>
-            <button className="cta-button btn btn-outline-light btn-lg">
-              <i className="fas fa-child"></i> TRY IT OUT
-            </button>
-          </form> */}
-          <button
-            onSubmit={handleSubmit}
-            className="cta-button btn btn-outline-light btn-lg"
-          >
-            <i className="fas fa-child"></i> Try It Out
-          </button>
+          </form>
         </div>
       </section>
 
