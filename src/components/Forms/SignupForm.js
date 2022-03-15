@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 import Message from "./Message";
 
@@ -94,7 +94,7 @@ const SignupForm = ({ signup }) => {
 
   return (
     <div className="col-md-4 col-lg-4 offset-md-3 offset-lg-4">
-      <h3 className="text-success text-center">Sign Up</h3>
+      <h3 className="text-success text-center my-4">Sign Up</h3>
       <Form className="mx-5" onSubmit={handleSubmit} inline>
         <FormGroup floating>
           <Input
@@ -177,7 +177,11 @@ const SignupForm = ({ signup }) => {
             Sign Up
           </Button>
         </div>
-        <span>Already have an account? Login.</span>
+        <div className="col text-center my-2">
+          <span>
+            Already have an account? <Link to="/login">Login</Link>
+          </span>
+        </div>
       </Form>
     </div>
   );

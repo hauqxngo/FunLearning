@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useHistory } from "react-router-dom";
+import UserContext from "../../UserContext";
 import "./Header.css";
 
 const Header = ({ login }) => {
@@ -14,6 +15,9 @@ const Header = ({ login }) => {
     history.push("/categories");
   }
 
+  // authentication stuff
+  const { currentUser } = useContext(UserContext);
+
   return (
     <header id="header">
       <div className="intro">
@@ -27,9 +31,13 @@ const Header = ({ login }) => {
                     Help your little ones learn the basic things and get ready
                     for preschool.
                   </p>
-                  <a href="/signup" role="button" className="btn btn-success">
-                    <i className="fas fa-child"></i> GET STARTED
-                  </a>
+
+                  {!currentUser && (
+                    <a href="/signup" role="button" className="btn btn-success">
+                      <i className="fas fa-child"></i> GET STARTED
+                    </a>
+                  )}
+
                   <form onSubmit={handleSubmit}>
                     <button className="btn btn-outline-light mt-3">
                       <i className="fas fa-chalkboard-user"></i> TRY IT OUT

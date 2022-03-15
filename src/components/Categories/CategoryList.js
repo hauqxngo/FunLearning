@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import FunLearningApi from "../../api/api";
 import SearchForm from "../Forms/SearchForm";
-import Categories from "./Categories";
+import CategoryCard from "./CategoryCard";
 import Loading from "../Navigation/Loading";
 
 /** Shows the list of all categories from API
@@ -10,7 +10,7 @@ import Loading from "../Navigation/Loading";
  *
  * Routed as /categories
  *
- * Routes -> {SearchForm, Categories}
+ * Routes -> {SearchForm, CategoryCard}
  */
 
 const CategoryList = () => {
@@ -29,14 +29,14 @@ const CategoryList = () => {
 
   return (
     <div>
-      <h3 className="text-center text-success">
+      <h3 className="text-center text-success mt-4">
         What do you want to learn today?
       </h3>
       <SearchForm searchFor={search} />
       {categories.length ? (
         <div>
           {categories.map((c) => (
-            <Categories
+            <CategoryCard
               key={c.handle}
               handle={c.handle}
               name={c.name}

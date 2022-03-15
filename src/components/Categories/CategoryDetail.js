@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import FunLearningApi from "../../api/api";
-import Items from "../Items/Items";
+import ItemCard from "../Items/ItemCard";
 import Loading from "../Navigation/Loading";
 
 /** Show the category detail with its item list
@@ -18,8 +18,8 @@ const CategoryDetail = () => {
   useEffect(
     function getCategoryDetail() {
       async function getCategory() {
-        let cat = await FunLearningApi.getCategory(handle);
-        setCategory(cat);
+        let category = await FunLearningApi.getCategory(handle);
+        setCategory(category);
       }
       getCategory();
     },
@@ -29,10 +29,10 @@ const CategoryDetail = () => {
   if (!category) return <Loading />;
 
   return (
-    <div>
+    <div className="mt-4">
       <h1 className="text-success text-center">{category.name}</h1>
       <p className="text-center">{category.description}</p>
-      <Items items={category.items} />
+      <ItemCard items={category.items} />
     </div>
   );
 };

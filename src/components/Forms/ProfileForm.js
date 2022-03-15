@@ -69,7 +69,7 @@ const ProfileForm = () => {
   };
 
   return (
-    <div className="col-md-4 col-lg-4 offset-md-3 offset-lg-4">
+    <div className="col-md-4 col-lg-4 offset-md-3 offset-lg-4 mt-4">
       <h3 className="text-success text-center">Edit Profile</h3>
       <Form className="mx-5" onSubmit={handleSubmit} inline>
         <FormGroup className="mb-2 me-sm-2 mb-sm-0">

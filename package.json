@@ -21,6 +21,7 @@
     "react-scripts": "5.0.0",
     "reactstrap": "^9.0.1",
     "stream-browserify": "^3.0.0",
+    "unsplash-js": "^7.0.15",
     "util": "^0.12.4",
     "web-vitals": "^2.1.4"
   },

@@ -22,7 +22,7 @@ const About = () => {
                 and behind the motivation to help entertain my 2-year-old
                 daughter.
               </p>
-              <p>Hope you and your kiddo(s) enjoy this!</p>
+              <p>Hope you and your kiddo(s) enjoy it!</p>
             </div>
           </div>
         </div>

@@ -84,7 +84,6 @@ h2 {
   }
 
   #about p {
-    width: 100%;
     margin: 2rem 0.5rem 0 0.5rem;
   }
 }
@@ -93,5 +92,21 @@ h2 {
 @media only screen and (min-width: 768px) {
   .section-title h2 {
     margin-left: 20%;
+  }
+
+  #about {
+    padding-bottom: 4rem;
+  }
+
+  #about p {
+    width: 99%;
+    margin-left: 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #about p {
+    width: 90%;
   }
 }

@@ -7,7 +7,7 @@ const Loading = () => {
         Loading...
       </h3>
       <div className="d-flex justify-content-center">
-        <div className="spinner-grow text-success my-2" role="status"></div>
+        <div className="spinner-border text-success my-2" role="status"></div>
       </div>
     </div>
   );

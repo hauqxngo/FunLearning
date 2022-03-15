@@ -44,7 +44,7 @@ const NavBar = ({ logout }) => {
                 <NavLink href="/profile">Profile</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/login" onClick={logout}>
+                <NavLink href="/" onClick={logout}>
                   Logout, {currentUser.username}
                 </NavLink>
               </NavItem>
@@ -63,13 +63,10 @@ const NavBar = ({ logout }) => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ms-auto" navbar>
               <NavItem>
-                <NavLink href="#features">Features</NavLink>
+                <NavLink href="/#features">Features</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#about">About</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#footer">Contact</NavLink>
+                <NavLink href="/#about">About</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/login">Login</NavLink>

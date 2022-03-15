@@ -1,0 +1,18 @@
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.item-detail img {
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.item-detail:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
