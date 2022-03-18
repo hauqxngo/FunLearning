@@ -7,12 +7,14 @@
 }
 
 #footer .container-fluid {
-  padding: 5% 15%;
+  padding: 3%;
 }
 
 .colored-section {
   background-color: #019267;
   color: #fff;
+  text-align: center;
+  padding: 5%;
 }
 
 .cta-button {

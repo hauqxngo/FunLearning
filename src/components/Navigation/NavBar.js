@@ -26,7 +26,7 @@ const NavBar = ({ logout }) => {
     setIsOpen((open) => !open);
   };
 
-  // authentication stuff
+  // authentication check
   const { currentUser } = useContext(UserContext);
 
   const loggedInNav = () => {
@@ -37,6 +37,9 @@ const NavBar = ({ logout }) => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ms-auto" navbar>
+              <NavItem>
+                <NavLink href="/">Home</NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink href="/categories">Categories</NavLink>
               </NavItem>
@@ -62,6 +65,9 @@ const NavBar = ({ logout }) => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ms-auto" navbar>
+              <NavItem>
+                <NavLink href="/">Home</NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink href="/#features">Features</NavLink>
               </NavItem>

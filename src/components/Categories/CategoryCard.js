@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
+import "./CategoryCard.css";
 
 /** Show info of a category on the Category List
  *
@@ -11,7 +12,7 @@ const CategoryCard = ({ name, description, handle }) => {
   return (
     <div>
       <Link className="text-decoration-none" to={`/categories/${handle}`}>
-        <Card body color="secondary mx-5 my-2" outline>
+        <Card body className="secondary mx-5 my-4 shadow category-card" outline>
           <CardBody>
             <CardTitle className="text-success" tag="h5">
               {name}

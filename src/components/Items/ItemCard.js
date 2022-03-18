@@ -1,5 +1,6 @@
 import React from "react";
 import ItemDetail from "./ItemDetail";
+import Footer from "../Pages/Footer";
 import "./ItemCard.css";
 
 /** Show list of item cards.
@@ -11,18 +12,16 @@ import "./ItemCard.css";
  *
  */
 
-const ItemCard = ({ items, view }) => {
+const ItemCard = ({ items }) => {
   return (
-    <div className="item-card">
-      {items.map((i) => (
-        <ItemDetail
-          key={i.id}
-          id={i.id}
-          name={i.name}
-          categoryName={i.categoryName}
-        />
-      ))}
-    </div>
+    <>
+      <div className="item-card">
+        {items.map((i) => (
+          <ItemDetail key={i.id} id={i.id} name={i.name} />
+        ))}
+      </div>
+      <Footer />
+    </>
   );
 };
 

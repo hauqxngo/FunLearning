@@ -12,14 +12,14 @@ import "./ItemDetail.css";
  * ItemCard -> ItemDetail
  */
 
-const ItemDetail = ({ id, name, categoryName }) => {
+const ItemDetail = ({ id, name }) => {
   let audio = new Audio(`/sounds/${name}.mp3`);
   const start = () => {
     audio.play();
   };
 
   return (
-    <div className="item-detail">
+    <div className="item-detail shadow">
       <Card>
         <div className="img-hover-zoom">
           <CardImg

@@ -1,0 +1,8 @@
+.category-card:hover {
+  background-color: #ffdede;
+  font-size: 20px;
+}
+
+.category-card:hover h5 {
+  font-size: 24px;
+}

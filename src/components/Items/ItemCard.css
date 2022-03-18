@@ -4,7 +4,7 @@
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 
 @media (min-width: 600px) {

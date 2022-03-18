@@ -3,6 +3,7 @@ import FunLearningApi from "../../api/api";
 import SearchForm from "../Forms/SearchForm";
 import CategoryCard from "./CategoryCard";
 import Loading from "../Navigation/Loading";
+import Footer from "../Pages/Footer";
 
 /** Shows the list of all categories from API
  *
@@ -21,8 +22,8 @@ const CategoryList = () => {
   }, []);
 
   async function search(name) {
-    let cats = await FunLearningApi.getCategories(name);
-    setCategories(cats);
+    let categories = await FunLearningApi.getCategories(name);
+    setCategories(categories);
   }
 
   if (!categories) return <Loading />;
@@ -47,6 +48,7 @@ const CategoryList = () => {
       ) : (
         <p className="mx-5">Sorry, no categories were found.</p>
       )}
+      <Footer />
     </div>
   );
 };
