@@ -1,3 +1,7 @@
+.item-detail {
+  cursor: pointer;
+}
+
 .img-hover-zoom {
   overflow: hidden;
 }

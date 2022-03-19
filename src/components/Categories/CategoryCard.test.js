@@ -6,7 +6,7 @@ import { MemoryRouter } from "react-router";
 it("matches snapshot", () => {
   const { asFragment } = render(
     <MemoryRouter>
-      <Categories
+      <CategoryCard
         handle="alphabet"
         name="Alphabet"
         description="A is for Apple. B is for Bus. C is for Cat."

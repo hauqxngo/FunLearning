@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="col-md-4 col-lg-4 offset-md-3 offset-lg-4 mt-4"
+  >
+    <h3
+      class="text-success text-center"
+    >
+      Edit Profile
+    </h3>
+    <form
+      class="mx-5 form-inline"
+    >
+      <div
+        class="mb-2 me-sm-2 mb-sm-0 mb-3"
+      >
+        <label
+          class="me-sm-2 my-3 form-label"
+          for="username"
+        >
+          Username: testuser
+        </label>
+      </div>
+      <div
+        class="mb-2 me-sm-2 mb-sm-0 my-3 mb-3"
+      >
+        <label
+          class="me-sm-2 form-label"
+          for="firstName"
+        >
+          First Name
+        </label>
+        <input
+          class="form-control"
+          id="firstName"
+          name="firstName"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="mb-2 me-sm-2 mb-sm-0 my-3 mb-3"
+      >
+        <label
+          class="me-sm-2 form-label"
+          for="lastName"
+        >
+          Last Name
+        </label>
+        <input
+          class="form-control"
+          id="lastName"
+          name="lastName"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="mb-2 me-sm-2 mb-sm-0 my-3 mb-3"
+      >
+        <label
+          class="me-sm-2 form-label"
+          for="email"
+        >
+          Email
+        </label>
+        <input
+          class="form-control"
+          id="email"
+          name="email"
+          type="text"
+          value="test@test.com"
+        />
+      </div>
+      <div
+        class="mb-2 me-sm-2 mb-sm-0 my-3 mb-3"
+      >
+        <label
+          class="me-sm-2 form-label"
+          for="password"
+        >
+          New Password
+        </label>
+        <input
+          class="form-control"
+          id="password"
+          name="password"
+          type="password"
+          value=""
+        />
+      </div>
+      <span
+        class="text-danger"
+      >
+        <button
+          class="btn btn-outline-success mt-4 d-block w-100 disabled"
+          disabled=""
+        >
+          Save Changes
+        </button>
+        Please sign up to change your own profile =)
+      </span>
+    </form>
+  </div>
+</DocumentFragment>
+`;

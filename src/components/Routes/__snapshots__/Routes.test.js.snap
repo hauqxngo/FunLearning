@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <header
+      id="header"
+    >
+      <div
+        class="intro"
+      >
+        <div
+          class="overlay"
+        >
+          <div
+            class="container"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-md-8 col-md-offset-2 intro-text"
+              >
+                <div
+                  class="intro-center"
+                >
+                  <h1>
+                    Let's learn something new!
+                  </h1>
+                  <p>
+                    Help your little ones learn the basic things and get ready for preschool.
+                  </p>
+                  <form>
+                    <button
+                      class="btn btn-outline-light mt-3"
+                    >
+                      <i
+                        class="fas fa-chalkboard-user"
+                      />
+                       TRY IT OUT
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      id="features"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="col-md-10 col-md-offset-1 section-title"
+        >
+          <h2>
+            Features
+          </h2>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-xs-6 col-md-3"
+          >
+            <i
+              class="fa fa-arrow-down-a-z"
+            />
+            <h3>
+              Phonics
+            </h3>
+            <p>
+              Learn ABC phonics, letters and build vocabularies.
+            </p>
+          </div>
+          <div
+            class="col-xs-6 col-md-3"
+          >
+            <i
+              class="fa fa-list-ol"
+            />
+            <h3>
+              Numbers
+            </h3>
+            <p>
+              123, count with me! Learn to count from 1 to 10.
+            </p>
+          </div>
+          <div
+            class="col-xs-6 col-md-3"
+          >
+            <i
+              class="fa fa-palette"
+            />
+            <h3>
+              Colors
+            </h3>
+            <p>
+              Introduce primary, secondary colors, and more!
+            </p>
+          </div>
+          <div
+            class="col-xs-6 col-md-3"
+          >
+            <i
+              class="fa fa-shapes"
+            />
+            <h3>
+              Shapes
+            </h3>
+            <p>
+              Learn basic shapes with examples in every day life.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="about"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-xs-12 col-md-6"
+          >
+            <img
+              alt="Reading Toddler"
+              class="img-responsive"
+              src="images/about.jpeg"
+            />
+          </div>
+          <div
+            class="col-xs-12 col-md-6"
+          >
+            <div
+              class="about-text"
+            >
+              <h2>
+                About
+              </h2>
+              <p>
+                Hi there! Thanks for checking this out.
+              </p>
+              <p>
+                I created this app for my final project at a coding bootcamp, and behind the motivation to help entertain my 2-year-old daughter.
+              </p>
+              <p>
+                Hope you and your kiddo(s) enjoy it!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section
+      class="colored-section"
+    >
+      <div
+        class="container-fluid"
+      >
+        <h3
+          class="big-heading"
+        >
+          Always Free. Learn More Today.
+        </h3>
+        <form>
+          <button
+            class="cta-button btn btn-outline-light"
+          >
+            <i
+              class="fas fa-chalkboard-user"
+            />
+             TRY IT OUT
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer
+      id="footer"
+    >
+      <div
+        class="container-fluid"
+      >
+        <a
+          href="https://www.instagram.com/hauqxngo"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i
+            class="social-icon fab fa-instagram"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/hauqxngo"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i
+            class="social-icon fa-brands fa-linkedin"
+          />
+        </a>
+        <a
+          href="https://github.com/hauqxngo"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i
+            class="social-icon fa-brands fa-github"
+          />
+        </a>
+        <p>
+          © Copyright 2022 
+          <a
+            href="https://hauqxngo.com"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Hau Ngo
+          </a>
+        </p>
+      </div>
+    </footer>
+  </div>
+</DocumentFragment>
+`;

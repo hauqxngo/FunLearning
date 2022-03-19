@@ -12,7 +12,7 @@ const CategoryCard = ({ name, description, handle }) => {
   return (
     <div>
       <Link className="text-decoration-none" to={`/categories/${handle}`}>
-        <Card body className="secondary mx-5 my-4 shadow category-card" outline>
+        <Card body className="secondary mx-5 my-4 category-card" outline>
           <CardBody>
             <CardTitle className="text-success" tag="h5">
               {name}

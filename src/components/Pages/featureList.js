@@ -7,7 +7,7 @@ const features = [
   {
     icon: "fa fa-list-ol",
     title: "Numbers",
-    text: "123, count with me! Learn to count from 1 to 20.",
+    text: "123, count with me! Learn to count from 1 to 10.",
   },
   {
     icon: "fa fa-palette",

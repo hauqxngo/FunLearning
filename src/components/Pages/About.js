@@ -8,7 +8,7 @@ const About = () => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             <img
-              src="images/about.jpg"
+              src="images/about.jpeg"
               className="img-responsive"
               alt="Reading Toddler"
             />

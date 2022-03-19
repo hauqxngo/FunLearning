@@ -33,7 +33,11 @@ const Header = ({ login }) => {
                   </p>
 
                   {!currentUser && (
-                    <a href="/signup" role="button" className="btn btn-success">
+                    <a
+                      href="/signup"
+                      role="button"
+                      className="btn btn-success btn-lg"
+                    >
                       <i className="fas fa-child"></i> GET STARTED
                     </a>
                   )}

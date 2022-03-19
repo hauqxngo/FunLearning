@@ -44,11 +44,13 @@ const NavBar = ({ logout }) => {
                 <NavLink href="/categories">Categories</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/profile">Profile</NavLink>
+                <NavLink href="/profile">
+                  {currentUser.firstName}'s Profile
+                </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/" onClick={logout}>
-                  Logout, {currentUser.username}
+                  Logout
                 </NavLink>
               </NavItem>
             </Nav>

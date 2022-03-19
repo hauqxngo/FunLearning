@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <a
+      class="text-decoration-none"
+      href="/categories/alphabet"
+    >
+      <div
+        class="secondary mx-5 my-4 category-card card card-body"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="text-success card-title"
+          >
+            Alphabet
+          </h5>
+          <p
+            class="text-dark card-text"
+          >
+            A is for Apple. B is for Bus. C is for Cat.
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</DocumentFragment>
+`;
