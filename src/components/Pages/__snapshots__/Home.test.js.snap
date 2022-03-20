@@ -65,12 +65,19 @@ exports[`matches snapshot 1`] = `
         <div
           class="col-xs-6 col-md-3"
         >
-          <i
-            class="fa fa-arrow-down-a-z"
-          />
-          <h3>
-            Phonics
-          </h3>
+          <a
+            class="text-decoration-none"
+            href="/categories/alphabet"
+          >
+            <i
+              class="fa fa-arrow-down-a-z"
+            />
+            <h3
+              class="text-secondary"
+            >
+              Alphabet
+            </h3>
+          </a>
           <p>
             Learn ABC phonics, letters and build vocabularies.
           </p>
@@ -78,12 +85,19 @@ exports[`matches snapshot 1`] = `
         <div
           class="col-xs-6 col-md-3"
         >
-          <i
-            class="fa fa-list-ol"
-          />
-          <h3>
-            Numbers
-          </h3>
+          <a
+            class="text-decoration-none"
+            href="/categories/numbers"
+          >
+            <i
+              class="fa fa-list-ol"
+            />
+            <h3
+              class="text-secondary"
+            >
+              Numbers
+            </h3>
+          </a>
           <p>
             123, count with me! Learn to count from 1 to 10.
           </p>
@@ -91,12 +105,19 @@ exports[`matches snapshot 1`] = `
         <div
           class="col-xs-6 col-md-3"
         >
-          <i
-            class="fa fa-palette"
-          />
-          <h3>
-            Colors
-          </h3>
+          <a
+            class="text-decoration-none"
+            href="/categories/colors"
+          >
+            <i
+              class="fa fa-palette"
+            />
+            <h3
+              class="text-secondary"
+            >
+              Colors
+            </h3>
+          </a>
           <p>
             Introduce primary, secondary colors, and more!
           </p>
@@ -104,12 +125,19 @@ exports[`matches snapshot 1`] = `
         <div
           class="col-xs-6 col-md-3"
         >
-          <i
-            class="fa fa-shapes"
-          />
-          <h3>
-            Shapes
-          </h3>
+          <a
+            class="text-decoration-none"
+            href="/categories/shapes"
+          >
+            <i
+              class="fa fa-shapes"
+            />
+            <h3
+              class="text-secondary"
+            >
+              Shapes
+            </h3>
+          </a>
           <p>
             Learn basic shapes with examples in every day life.
           </p>
@@ -304,12 +332,19 @@ exports[`matches snapshot when logged out 1`] = `
         <div
           class="col-xs-6 col-md-3"
         >
-          <i
-            class="fa fa-arrow-down-a-z"
-          />
-          <h3>
-            Phonics
-          </h3>
+          <a
+            class="text-decoration-none"
+            href="/categories/alphabet"
+          >
+            <i
+              class="fa fa-arrow-down-a-z"
+            />
+            <h3
+              class="text-secondary"
+            >
+              Alphabet
+            </h3>
+          </a>
           <p>
             Learn ABC phonics, letters and build vocabularies.
           </p>
@@ -317,12 +352,19 @@ exports[`matches snapshot when logged out 1`] = `
         <div
           class="col-xs-6 col-md-3"
         >
-          <i
-            class="fa fa-list-ol"
-          />
-          <h3>
-            Numbers
-          </h3>
+          <a
+            class="text-decoration-none"
+            href="/categories/numbers"
+          >
+            <i
+              class="fa fa-list-ol"
+            />
+            <h3
+              class="text-secondary"
+            >
+              Numbers
+            </h3>
+          </a>
           <p>
             123, count with me! Learn to count from 1 to 10.
           </p>
@@ -330,12 +372,19 @@ exports[`matches snapshot when logged out 1`] = `
         <div
           class="col-xs-6 col-md-3"
         >
-          <i
-            class="fa fa-palette"
-          />
-          <h3>
-            Colors
-          </h3>
+          <a
+            class="text-decoration-none"
+            href="/categories/colors"
+          >
+            <i
+              class="fa fa-palette"
+            />
+            <h3
+              class="text-secondary"
+            >
+              Colors
+            </h3>
+          </a>
           <p>
             Introduce primary, secondary colors, and more!
           </p>
@@ -343,12 +392,19 @@ exports[`matches snapshot when logged out 1`] = `
         <div
           class="col-xs-6 col-md-3"
         >
-          <i
-            class="fa fa-shapes"
-          />
-          <h3>
-            Shapes
-          </h3>
+          <a
+            class="text-decoration-none"
+            href="/categories/shapes"
+          >
+            <i
+              class="fa fa-shapes"
+            />
+            <h3
+              class="text-secondary"
+            >
+              Shapes
+            </h3>
+          </a>
           <p>
             Learn basic shapes with examples in every day life.
           </p>
