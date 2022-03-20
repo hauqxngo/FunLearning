@@ -1,7 +1,7 @@
 const features = [
   {
     icon: "fa fa-arrow-down-a-z",
-    title: "Phonics",
+    title: "Alphabet",
     text: "Learn ABC phonics, letters and build vocabularies.",
   },
   {
