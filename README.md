@@ -1,6 +1,6 @@
 # Fun Learning
-- React application for toddlers to learn basic things through familiar objects in pictures.
-- Deployed URL: https://fun-learning.surge.sh
+React application for toddlers to learn basic things through familiar objects in pictures.\
+Deployed URL: https://fun-learning.surge.sh
 
 ## Table of Contents
 - [About](#about)
