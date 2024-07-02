@@ -75,7 +75,7 @@ Learn basic shapes with examples in every day life.
 - Once registered, users have access to all the categories with sounds when pressing the Play button on each item.
 
 ## API
-Self-written [Fun Learning API](https://fun-learning-api.herokuapp.com/categories)
+Self-written [Fun Learning API](https://github.com/hauqxngo/FunLearningBackend)
 
 ## Technology Stack Used
 
